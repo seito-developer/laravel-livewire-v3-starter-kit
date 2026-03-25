@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-v3-starter-kit",
+    "name": "laravel/livewire-starter-kit",
     "type": "project",
-    "description": "The Laravel Livewire V3 starter kit.",
+    "description": "The official Laravel starter kit for Livewire.",
     "keywords": [
         "laravel",
         "framework"
