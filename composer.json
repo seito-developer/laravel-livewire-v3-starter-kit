@@ -1,13 +1,24 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-v3-starter-kit",
+    "name": "seito-developer/laravel-livewire-v3-starterkit",
     "type": "project",
-    "description": "The Laravel starter kit for Livewire v3.",
+    "description": "A Laravel 12 starter kit with Livewire v3, Flux UI, Tailwind CSS v4, Fortify authentication, and Docker Sail.",
     "keywords": [
         "laravel",
-        "framework"
+        "livewire",
+        "starter-kit",
+        "livewire-v3",
+        "flux",
+        "fortify",
+        "sail"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.fluxui.dev"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/fortify": "^1.30",
