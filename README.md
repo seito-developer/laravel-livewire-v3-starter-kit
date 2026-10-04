@@ -6,7 +6,7 @@ A Laravel 12 starter kit featuring **Livewire v3** (pinned), Flux UI, Tailwind C
 
 - **Laravel 12** — PHP framework
 - **Livewire v3** — Full-stack reactive components (pinned to v3)
-- **Flux UI** — Component library for Livewire (paid license required)
+- **Flux UI (free)** — Component library for Livewire (no paid license required)
 - **Tailwind CSS v4** — Utility-first CSS framework
 - **Laravel Fortify** — Authentication backend (login, register, password reset, 2FA)
 - **Laravel Sail** — Docker-based development environment (PostgreSQL)
@@ -26,20 +26,11 @@ A Laravel 12 starter kit featuring **Livewire v3** (pinned), Flux UI, Tailwind C
 
 ## Prerequisites
 
-> **Flux UI requires a paid license.** Without valid Flux credentials, `composer create-project` will fail.
+This starter kit uses the free version of [Flux UI](https://fluxui.dev), installed from Packagist. No paid Flux license or Composer authentication is required.
 
 1. PHP 8.2+
 2. Composer
 3. Node.js 20+ and npm
-4. **A valid Flux UI license** — purchase at https://fluxui.dev
-
-### Configure Flux credentials
-
-Before installing, add your Flux credentials to your global Composer auth:
-
-```bash
-composer config --global http-basic.composer.fluxui.dev your@email.com your-license-key
-```
 
 ---
 

@@ -13,12 +13,6 @@
         "sail"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://composer.fluxui.dev"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "laravel/fortify": "^1.30",
